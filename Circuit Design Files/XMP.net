@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fri 19 Apr 2013 07:35:41 AM EDT
+# EESchema Netlist Version 1.1 created  Fri 19 Apr 2013 10:32:23 AM EDT
 (
  ( /5168B13A SM0603  R4 470 {Lib=R}
   (    1 GND )
@@ -36,19 +36,19 @@
   (    1 N-000002 )
   (    2 N-000011 )
  )
- ( /5168B0F2 RGBD  D4 RGBD {Lib=RGBD}
+ ( /5168B0F2 RGBD  D4 OVSARGB4R8 {Lib=RGBD}
   (    1 N-000001 )
   (    2 +5V )
   (    3 N-000005 )
   (    4 N-000002 )
  )
- ( /5168B0EF RGBD  D3 RGBD {Lib=RGBD}
+ ( /5168B0EF RGBD  D3 OVSARGB4R8 {Lib=RGBD}
   (    1 N-000003 )
   (    2 +5V )
   (    3 N-000006 )
   (    4 N-000015 )
  )
- ( /5168B085 RGBD  D2 RGBD {Lib=RGBD}
+ ( /5168B085 RGBD  D2 OVSARGB4R8 {Lib=RGBD}
   (    1 N-000014 )
   (    2 +5V )
   (    3 N-000013 )
@@ -75,7 +75,7 @@
   (    1 +5V )
   (    2 GND )
  )
- ( /5168A4D5 RGBD  D1 RGBD {Lib=RGBD}
+ ( /5168A4D5 RGBD  D1 OVSARGB4R8 {Lib=RGBD}
   (    1 N-000008 )
   (    2 +5V )
   (    3 N-000010 )
