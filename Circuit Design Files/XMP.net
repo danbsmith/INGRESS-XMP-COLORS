@@ -1,0 +1,236 @@
+# EESchema Netlist Version 1.1 created  Fri 19 Apr 2013 07:35:41 AM EDT
+(
+ ( /5168B13A SM0603  R4 470 {Lib=R}
+  (    1 GND )
+  (    2 N-000014 )
+ )
+ ( /5168B138 SM0603  R5 470 {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000004 )
+ )
+ ( /5168B11B SM0603  R9 470 {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000004 )
+ )
+ ( /5168B118 SM0603  R12 470 {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000004 )
+ )
+ ( /5168B115 SM0603  R10 470 {Lib=R}
+  (    1 GND )
+  (    2 N-000001 )
+ )
+ ( /5168B113 SM0603  R6 470 {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000011 )
+ )
+ ( /5168B111 SM0603  R7 470 {Lib=R}
+  (    1 GND )
+  (    2 N-000003 )
+ )
+ ( /5168B10E SM0603  R8 470 {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000011 )
+ )
+ ( /5168B107 SM0603  R11 470 {Lib=R}
+  (    1 N-000002 )
+  (    2 N-000011 )
+ )
+ ( /5168B0F2 RGBD  D4 RGBD {Lib=RGBD}
+  (    1 N-000001 )
+  (    2 +5V )
+  (    3 N-000005 )
+  (    4 N-000002 )
+ )
+ ( /5168B0EF RGBD  D3 RGBD {Lib=RGBD}
+  (    1 N-000003 )
+  (    2 +5V )
+  (    3 N-000006 )
+  (    4 N-000015 )
+ )
+ ( /5168B085 RGBD  D2 RGBD {Lib=RGBD}
+  (    1 N-000014 )
+  (    2 +5V )
+  (    3 N-000013 )
+  (    4 N-000012 )
+ )
+ ( /5168AD61 PINHEAD1-3  K1 CONN_3 {Lib=CONN_3}
+  (    1 N-000004 )
+  (    2 GND )
+  (    3 N-000011 )
+ )
+ ( /5168AC9E SM0603  R2 470 {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000004 )
+ )
+ ( /5168AC9A SM0603  R3 470 {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000011 )
+ )
+ ( /5168A584 SM0603  R1 470 {Lib=R}
+  (    1 N-000008 )
+  (    2 GND )
+ )
+ ( /5168A519 PINHEAD1-2  P1 CONN_2 {Lib=CONN_2}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /5168A4D5 RGBD  D1 RGBD {Lib=RGBD}
+  (    1 N-000008 )
+  (    2 +5V )
+  (    3 N-000010 )
+  (    4 N-000009 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R10 2
+ D4 1
+Net 2 "" ""
+ D4 4
+ R11 1
+Net 3 "" ""
+ R7 2
+ D3 1
+Net 4 "" ""
+ R2 2
+ R5 2
+ R9 2
+ R12 2
+ K1 1
+Net 5 "" ""
+ D4 3
+ R12 1
+Net 6 "" ""
+ R9 1
+ D3 3
+Net 7 "GND" "GND"
+ R1 2
+ K1 2
+ R4 1
+ R10 1
+ P1 2
+ R7 1
+Net 8 "" ""
+ D1 1
+ R1 1
+Net 9 "" ""
+ D1 4
+ R3 1
+Net 10 "" ""
+ D1 3
+ R2 1
+Net 11 "" ""
+ R11 2
+ R8 2
+ R3 2
+ R6 2
+ K1 3
+Net 12 "" ""
+ R6 1
+ D2 4
+Net 13 "" ""
+ R5 1
+ D2 3
+Net 14 "" ""
+ R4 2
+ D2 1
+Net 15 "" ""
+ D3 4
+ R8 1
+Net 16 "+5V" "+5V"
+ D4 2
+ D1 2
+ P1 1
+ D2 2
+ D3 2
+}
+#End
