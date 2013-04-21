@@ -4,6 +4,6 @@ The plastic base is designed in FreeCAD.
 
 The circuit board is designed in KiCAD.
 
-Please stay within the bounds of the license when using these files.
+Please stay within the bounds of the license (found in LICENSE.txt) when using these files.
 
 Feel free to contact me at the address in CONTRIB.txt, but include a relevant subject line so I know it is about this repository.
