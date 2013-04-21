@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Apr 2013 10:32:41 AM EDT
+EESchema Schematic File Version 2  date Sun 21 Apr 2013 05:50:57 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:rgbd
-LIBS:XMP-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 apr 2013"
+Date "21 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +44,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 7200 2400 0    60   ~ 0
+Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
 Connection ~ 6400 3450
 Wire Wire Line
 	6400 3450 7200 3450
