@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2014-01-19 BZR 4624)-product date = Sun 09 Feb 2014 02:32:51 PM EST
+
+BeginCmp
+TimeStamp = /5168A4D5;
+Reference = D1;
+ValeurCmp = OVSARGB4R8;
+IdModule  = RGBD:RGBD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168B085;
+Reference = D2;
+ValeurCmp = OVSARGB4R8;
+IdModule  = RGBD:RGBD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168B0EF;
+Reference = D3;
+ValeurCmp = OVSARGB4R8;
+IdModule  = RGBD:RGBD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168AD61;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = Connect:PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168A519;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168A584;
+Reference = R1;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168AC9E;
+Reference = R2;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168AC9A;
+Reference = R3;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168B13A;
+Reference = R4;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168B138;
+Reference = R5;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168B113;
+Reference = R6;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168B111;
+Reference = R7;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168B10E;
+Reference = R8;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5168B11B;
+Reference = R9;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+EndListe
